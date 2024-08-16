@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "outDir": "/",
+        "baseUrl": ".",
+        "strict": true,
+        "alwaysStrict": true,
+        "sourceMap": true
+    },
+    "include": [
+        "./src/**/*.ts"
+    ]
+}

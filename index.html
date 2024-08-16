@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>New Tab</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id="app">
+            <div id="header">
+                <span id="header-filename">[ http://localhost:8080/ ]</span>
+                <span id="header-time">00:00</span>
+            </div>
+            <div id="body">
+                <div id="desktop">
+                    <a href="https://mail.yahoo.com/" class="desktop-icon">
+                        <img src="images/email.gif" />
+                        <span class="desktop-icon-text">Yahoo! Mail</span>
+                    </a>
+                    <a href="https://www.rbcroyalbank.com/" class="desktop-icon">
+                        <img src="images/rbc.png" />
+                        <span class="desktop-icon-text">RBC Royal Bank</span>
+                    </a>
+                    <a href="https://aniwave.to/" class="desktop-icon">
+                        <img src="images/anime.jpg" />
+                        <br>
+                        <span class="desktop-icon-text">9Anime</span>
+                    </a>
+                    <a href="https://twitter.com/" class="desktop-icon">
+                        <img src="images/twitter.gif" />
+                        <br>
+                        <span class="desktop-icon-text">Twitter</span>
+                    </a>
+                    <a href="https://sudo-flix.lol/" class="desktop-icon">
+                        <img src="images/sudoflix.gif" />
+                        <br>
+                        <span class="desktop-icon-text">Sudo Flix</span>
+                    </a>
+                    <a href="https://www.youtube.com/feed/subscriptions" class="desktop-icon">
+                        <img src="images/youtube.png" />
+                        <br>
+                        <span class="desktop-icon-text">Youtube</span>
+                    </a>
+                </div>
+                <div id="search">
+                    <div id="search-suggestions"></div>
+                    <span>botmark $ </span><input type="text" id="search-bar" value="" autofocus placeholder="search, equation, or url..."/>
+                </div>
+            </div>
+            <video id="background-video" autoplay loop muted> 
+                <source src="videos/bg-fast.mp4" type="video/mp4"> 
+            </video>
+        </div>
+        <div id="scanlines"></div>
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="bundle.js"></script>
+        
+    </body>
+</html>

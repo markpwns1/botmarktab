@@ -1,0 +1,23 @@
+{
+  "name": "newtab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^13.0.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.5.3",
+    "webpack": "^5.93.0"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.7.0",
+    "@types/jquery": "^3.5.30",
+    "swc-loader": "^0.2.6",
+    "webpack-cli": "^5.1.4"
+  }
+}
